@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Josh Barrington</title>
+
+		<!--link to css reset-->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<!--link to my css stylesheet-->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+		
+
+	<body>
+			<!--header that includes name and navigation bar-->
+			<header>
+				<div class="navigation">
+					<ul>
+						<li class="about"><a href="index.html">About</a></li>
+
+						<li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
+
+						<li class="contact"><a href="contact.html">Contact</a></li>
+					</ul>
+
+					<div class="name">
+						<h1>Josh Barrington</h1>
+					</div>
+
+				</div>
+			</header>
+
+			
+			<!--container class keeps the background pick out of header-->
+			<div class="container">
+				
+				
+				<!--Main section-->
+					<section class="mainbox">
+						<!--the contact form-->
+						<h3 class="mainboxhead"><strong>Contact</strong></h3>
+	
+						<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+							<div class="row">
+								<label for="name">Name:</label><br />
+								<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+							</div>
+
+							<div class="row">
+								<label for="email">Email:</label><br />
+								<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+							</div>
+	
+							<div class="row">
+								<label for="message">Message:</label><br />
+								<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+							</div>
+							<input id="submit_button" type="submit" value="Submit" />
+						</form>						
+
+					</section>
+				
+					<!--the contact sidebar-->
+					<section class="sidebar">
+
+						<h3 class="sidebarhead">Connect with me</h3>
+			
+						<ul>
+							<li class="icon"><a href="https://github.com/jshtx">
+
+							<img src="assets/images/github-icon.png" alt="Git Hub"></a></li>
+
+							<li class="icon"><a href="https://www.linkedin.com/in/josh-barrington-95576312b">
+					
+							<img src="assets/images/linkedin-icon.png" alt="Linkedin"></a></li>
+
+							<li class="icon"><a href="http://stackoverflow.com/users/7004547/jshtx">
+
+							<img src="assets/images/stackoverflow-icon.png" alt="Stackoverflow"></a></li>
+						</ul>
+					</section>
+			
+		
+				
+			</div>
+
+		<footer>
+			<p>&#169; Copyright Josh Barrington 2016</p>
+		</footer>
+	</body>
+</html>

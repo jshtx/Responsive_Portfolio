@@ -1,0 +1,347 @@
+h1, h3 {
+	
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+}
+
+
+body {
+	 font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	 text-decoration: none;
+	 background-image: url("../images/background.png") 
+    
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+
+}
+
+/*header with navigation bar*/
+
+header {
+	background: #fff;
+	margin: 0 0 30px;
+
+	color: #fff;
+	overflow: auto;
+	border-bottom: 2px solid #ccc;
+	
+	width: 100%;
+
+}
+
+.navigation {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+.name {
+	color: white;
+	background-color: #4aaaa5;
+	width: 30%;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+}
+
+.navigation li {
+	float: right;
+	width: 80px;
+	margin-top: 10px;
+	
+}
+	
+
+.clearfix {
+	overflow: auto;
+}
+
+.about {
+	clear: both;
+	border-left: 2px dotted #dddddd;
+	text-align: center;
+	
+}
+
+.portfolio {
+	
+	text-align: center;
+}
+
+.contact {
+	border-right: 2px dotted #dddddd;
+	text-align: center;
+}
+
+/*footer*/
+
+footer {
+	background: #666;
+	color: #fff;
+	padding: 30px 0;
+	clear: both;
+	border-top: 8px solid #4aaaa5;
+	color: #ccc;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*main content box with the profile pic*/
+
+
+.mainboxhead {
+	color: #4aaaa5;
+	margin-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #dddddd;
+	width: 570px;
+}
+.mainbox {
+	
+	
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	width: 100%;
+	max-width: 650px;
+ 	float: left;
+	margin-top: 40px; 
+	
+	
+}
+
+p {  
+	
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 40px;
+	
+}
+
+
+
+.profile {
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 30px;
+	padding-right: 10px;	
+}
+
+/*connect with me sidebar*/
+
+.sidebar {
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	float: right;
+	margin-top: 40px;
+	width: 100%;
+	max-width: 270px;
+	margin-bottom: 20px;
+}
+
+.sidebar li {
+	float: left;
+}
+
+.sidebarhead {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 80%;
+	margin-left: 10%;
+	border-bottom: 3px solid #dddddd;
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 20px;
+}
+.icon img {
+
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+
+.row {
+	padding-top: 15px;
+}
+
+#submit_button {
+	text-align: center;
+	margin-top: 10px;
+	width: 60px;
+	height: 25px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+#contact_form {
+	margin-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.port_pics {
+	width: 250px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px 37px;
+}
+
+.port_pics:nth-child(even) {
+	margin-right: 40px;
+}
+
+
+.port_pics img {
+	width: 100%;
+}
+
+
+.port_pics h2 {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	bottom: 20px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*adjustments when screen is reduced to 640px*/
+
+@media screen and (max-width: 640px) {
+
+	.name {
+		margin-top: 0px;
+		max-width: 640px;
+		width: 100%;
+	}
+
+
+	.container {
+		max-width: 600px;
+	}
+
+	.mainboxhead {
+		max-width: 520px;
+
+	}
+
+	.mainbox {
+		max-width: 600px;
+		width: 100%;
+	}
+
+	.sidebar {
+		max-width: 600px;
+		width: 100%;
+			
+	}
+
+	.port_pics {
+		width: 525px;
+	}
+
+	.profile {
+		width: 525px;
+		height: 350px;
+		margin-bottom: 10px;
+
+	}
+}
+
+
+
+
+
+/*adjustments when screen is reduced to 768px*/
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+	.name {
+	margin-left: 69px;
+	
+
+	}
+
+	.container {
+		margin-left: 69px;
+	}
+
+	.sidebar{
+	width: 100%;
+	max-width: 650px;
+	float: left;
+	}
+
+	
+}
+
+
+/*adjustments when screen is reduced to 980px*/
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+	.navigation {
+		max-width: 600px;
+		width: 100%;
+	}
+
+	.name {
+		width: 40%;
+	}
+
+	.container {
+		max-width: 600px;
+	}
+
+	.mainboxhead {
+		max-width: 250px;
+
+	}
+
+	.mainbox {
+		max-width: 330px;
+	}
+
+	.sidebar {
+		max-width: 200px;	
+	}
+
+	.sidebar img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.profile {
+		width: 250px;
+		margin-bottom: 10px;
+
+	}
+}
